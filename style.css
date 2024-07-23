@@ -1,0 +1,75 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+
+body {
+  background-color: var(--Off-Black);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.container {
+  max-width: 20rem;
+  background-color: var(--Dark-Grey);
+  padding: 1.8rem;
+  margin-top: 90px;
+  border-radius: 10px;
+}
+
+p {
+  color: var(--Green);
+}
+
+.details {
+  color: var(--White);
+}
+
+h1 {
+  color: var(--White);
+}
+
+img {
+  margin-top: 15px;
+  width: 25%;
+  border-radius: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--Grey);
+  color: var(--White);
+}
+
+.one:hover {
+  background-color: var(--Green);
+}
+
+a {
+  color: var(--White);
+  text-decoration: none;
+}
+
+footer {
+  font-size: 20px;
+  margin-top: 15px;
+  color: hsl(228, 45%, 44%);
+}
+
+footer > a {
+  color: hsl(228, 45%, 44%);
+}
